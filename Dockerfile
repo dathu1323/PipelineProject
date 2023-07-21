@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y git docker.io
 
 # Optionally, install any Jenkins plugins you need (Example: Install the Git plugin)
 
-RUN /usr/local/bin/install-plugins.sh git
+#RUN /usr/local/bin/install-plugins.sh git
 
 # Drop back to the regular Jenkins user
 
